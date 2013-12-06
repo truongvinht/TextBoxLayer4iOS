@@ -12,7 +12,7 @@ Typing:
 TextBoxLayer *box = [TextBoxLayer node];
 box.delegate = self;
 box.isAutoContinue = YES;
-[self addChild:self.box];
+[self addChild:box];
 [self.box typeText:@"OMG, the class is awesome!" withDelay:0.1f withHide:NO];
 ```
 Battle Mode with 4 buttons:
@@ -20,7 +20,7 @@ Battle Mode with 4 buttons:
 TextBoxLayer *box = [TextBoxLayer node];
 box.delegate = self;
 box.isAutoContinue = YES;
-[self addChild:self.box];
+[self addChild:box];
 [box initButtonLabelsForTopLeft:@"Fight" andTopRight:@"Items" andBottomLeft:@"Switch" andBottomRight:@"Escape"];
 [box setBoxMode:TextBoxLayoutBattle];
 ```
