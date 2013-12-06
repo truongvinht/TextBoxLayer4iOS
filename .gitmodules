@@ -1,0 +1,3 @@
+[submodule "CCAutoType"]
+	path = CCAutoType
+	url = git@github.com:truongvinht/CCAutoType.git
